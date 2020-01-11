@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        app:cardMaxElevation="1dp"
+        app:cardUseCompatPadding="false"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/img_numm"
+            android:src="@mipmap/ic_launcher"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="55dp">
+
+            <TextView
+                android:id="@+id/name_contactm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#000"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:id="@+id/phone_contactm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="meaning"
+                android:textColor="#000"
+                app:fontFamily="@font/roboto" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="urdu"
+                android:textSize="20dp"
+                android:id="@+id/name_urdum"
+                android:textColor="#000"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

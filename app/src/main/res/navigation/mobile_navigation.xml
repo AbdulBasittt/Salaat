@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.salaat.ui.SearchCity.SearchCityFragment"
+        android:label="Serach City"
+        tools:layout="@layout/fragment_searchcity" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.salaat.ui.Qibla.QiblaFragment"
+        android:label="Qibla"
+        tools:layout="@layout/fragment_qibla" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.salaat.ui.dua.DuaFragment"
+        android:label="Dua"
+        tools:layout="@layout/fragment_dua" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.salaat.ui.namesofALLAH.NamesFragment"
+        android:label="99 Names"
+        tools:layout="@layout/fragment_names" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.salaat.ui.calendar.CalendarFragment"
+        android:label="Calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.salaat.ui.tasbih.TasbihFragment"
+        android:label="Tasbi"
+        tools:layout="@layout/fragment_tasih" />
+</navigation>

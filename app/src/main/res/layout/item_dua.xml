@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        app:cardMaxElevation="1dp"
+        android:layout_gravity="center"
+        app:cardUseCompatPadding="false"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/img_dua"
+            android:src="@mipmap/ic_launcher"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="55dp">
+
+            <TextView
+                android:id="@+id/name_dua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="20dp"
+                android:textColor="#000"
+                app:fontFamily="@font/roboto" />
+            <TextView
+                android:id="@+id/arabictv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arabic"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginTop="7dp"
+                android:layout_gravity="end"
+                android:textColor="#000"
+                app:fontFamily="@font/roboto" />
+            <TextView
+                android:id="@+id/eng_translation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English Translation"
+                android:textColor="#35b64f"
+                android:layout_marginTop="7dp"
+                app:fontFamily="@font/roboto" />
+
+            <TextView
+                android:id="@+id/refernecetv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reference"
+                android:layout_marginTop="7dp"
+                android:textColor="#964B00"
+                app:fontFamily="@font/roboto_condensed_light_italic" />
+
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

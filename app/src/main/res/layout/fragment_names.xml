@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="8"
+    android:layout_height="match_parent" >
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:orientation="vertical"
+     android:layout_height="wrap_content"
+     android:layout_weight="8">
+     <TextView
+         android:id="@+id/text_tools"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+     <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/recycler_view"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+     </androidx.recyclerview.widget.RecyclerView>
+
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="30dp"
+        android:background="#969996"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/play"
+            android:src="@drawable/multimedia"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <ImageView
+            android:id="@+id/pause_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/pause"/>
+        <ImageView
+            android:id="@+id/stop_btn"
+            android:layout_width="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"
+            android:src="@drawable/stopppp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
